@@ -1,0 +1,12 @@
+sudo su
+yum update -y
+yum install docker -y
+systemctl start docker
+systemctl enable docker
+
+
+# sudo su --> root user
+# yum update -y  --> update existing apps on the OS
+# yum install docker -y --> Installation of docker
+# systemctl start docker --> starting docker
+# systemctl enable docker --> restart docker whenever you restart the server
