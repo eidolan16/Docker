@@ -10,3 +10,4 @@ systemctl enable docker
 # yum install docker -y --> Installation of docker
 # systemctl start docker --> starting docker
 # systemctl enable docker --> restart docker whenever you restart the server
+# systemctl status docker --> to check if docker is running
