@@ -11,3 +11,10 @@ systemctl enable docker
 # systemctl start docker --> starting docker
 # systemctl enable docker --> restart docker whenever you restart the server
 # systemctl status docker --> to check if docker is running
+# docker ps --> to see current and running cointainer 
+# docker ps -a --> to see all containters 
+# docker pull --> to pull an image from docker hub
+#docker run --> to pull and create running 
+#docker images --> to show you all the image present and runing on the ec2 only
+ # docker run -d nginx --> to run container in the background
+# docker run -d -p 80:80 nginx --> to run and create other container 
