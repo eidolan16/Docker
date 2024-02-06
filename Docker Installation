@@ -17,4 +17,5 @@ systemctl enable docker
 #docker run --> to pull and create running 
 #docker images --> to show you all the image present and runing on the ec2 only
  # docker run -d nginx --> to run container in the background
+# docker run nginx --> to run and pull
 # docker run -d -p 80:80 nginx --> to run and create other container 
